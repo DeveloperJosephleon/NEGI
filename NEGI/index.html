@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="./assets/images/ligntining blot.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <title>DAAB Electrical Services</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <img src="./assets/images/reloader.gif" alt="" srcset="">
+    </div>
+
+    <!-- Navbar Logo and Links -->
+    <header id="#top">
+
+        <nav class="main-navigation navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <div class="logo">
+                    <span>DAAB</span>
+                    Electrical Services
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Homepage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="explore.html">Explore Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Navabar Header -->
+    <div class="main-banner change-name">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-text">
+                        <h6>We Offer Comprehensive</h6>
+                        <h2><em>Electrical </em> Installations</h2>
+                        <div class="white-button">
+                            <a href="#">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Book now Section  -->
+    <div class="search-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <form id="search-form" name="gs" method="submit" role="search" action="#">
+                        <div class="row">
+                            <div class="maintext">
+                                Book now
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="chooseDate" class="form-label">Choose a Date:</label>
+                                <input type="date" id="chooseDate" name="chooseDate">
+                            </div>
+                            <div class="col-lg-3">
+                                <fieldset>
+                                    <label for="chooseCategory" class="form-label">Electrical Services</label>
+                                    <select name="Category" class="form-select" aria-label="Default select example"
+                                        id="chooseCategory" onChange="this.form.click()">
+                                        <option selected>Choose services</option>
+                                        <option type="checkbox" name="option1" value="Design & Development">Design &
+                                            Development
+                                        </option>
+                                        <option value="Procurements">Procurements</option>
+                                        <option value="Installationsn">Installations</option>
+                                        <option value="Repairs">Repairs</option>
+                                        <option value="Optimization">Optimization</option>
+                                        <option value="Scalability">Scalability</option>
+                                        <option value="Pairing & Synchronization">Pairing & Synchronization</option>
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-3">
+                                <fieldset>
+                                    <label for="chooseprice" class="form-label">Choose location</label>
+                                    <select name="Price" class="form-select" aria-label="Default select example"
+                                        id="chooseCategory" onChange="this.form.click()">
+                                        <option selected>Choose location</option>
+                                        <option value="Ikeja">Ikeja</option>
+                                        <option value="Lekki">Lekki</option>
+                                        <option value="Surulere">Surulere</option>
+                                        <option value="Yaba">Yaba</option>
+                                        <option value="Lagos-Island">Lagos-Island</option>
+                                        <option value="Ikoyi">Ikoyi</option>
+                                        <option value="Victoria Island">Victoria-Island</option>
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-3">
+                                <fieldset>
+                                    <label for="chooseplan" class="form-label">Pick a Plan</label>
+                                    <select name="Plan" class="form-select" aria-label="Default select example"
+                                        id="chooseCategory" onChange="this.form.click()">
+                                        <option selected>Choose plan</option>
+                                        <option value="Standard">Standard</option>
+                                        <option value="Professional">Professional</option>
+                                        <option value="Golden">Golden</option>
+                                        <option value="Premium">Premium</option>
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <button class="main-button">Book Now</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!-- Mini About us Section  -->
+    <div class="page-banner_1 change-name">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="header-text">
+                        <h2><em>About</em> Us</h2>
+                        <p>We provide only the best Installations with quality materials.With a 1year warranty and
+                            support from our best team .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>DAAB Civil Engineering <br><em>PORTFOLIO</em>.</h2>
+                </div>
+                <p class="OM_1">
+                <ul class="list-Con">
+                    <li class="list_hold">• ROAD CONSTRUCTION </li>
+                    <li class="list_hold">• BUILDING</li>
+                    <li class="list_hold">• FACILITY </li>
+                    <li class="list_hold">• CONSTRUCTION</li>
+                    <li class="list_hold">• EXCAVATIONS</li>
+                    <li class="list_hold">• LOADING/OFF LOADING </li>
+                    <li class="list_hold">• PROCUREMENTS</li>
+                </ul>
+                <div class="Read-button">
+                    <a href="/about.html">Read More</a>
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+                <div class="right-content">
+                    <div class="section-heading">
+                        <h2>DAAB Elect. Engineering <br><em>PORTFOLIO</em>.</h2>
+                    </div>
+                    <p class="OM_1">
+                    <ul class="list-Con">
+                        <li class="list_hold">• DESIGN & DEVELOPMENT</li>
+                        <li class="list_hold">• PROCUREMENTS</li>
+                        <li class="list_hold">• INSTALLATIONS</li>
+                        <li class="list_hold">• REPAIRS</li>
+                        <li class="list_hold">• OPTIMIZATION</li>
+                        <li class="list_hold">• SCALABILITY</li>
+                        <!-- <li class="list_hold">• PAIRING & SYNCHRONIZATION OF EQUIPMENT</li> -->
+                        <li class="list_hold">• TURN-KEY PROJECTS</li>
+                    </ul>
+                    <div class="Read-button">
+                        <a href="/about.html">Read More</a>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Slider -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+                <h1 class="display-5 mb-0">What People Say About Our Services</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="text-center pb-4">
+                    <img class="img-fluid mx-auto rounded-circle" src="assets/images/dark bulbs.jpg"
+                        style="width: 150px; height: 150px;">
+                    <div class="testimonial-text bg-light rounded p-4 mt-n5">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod
+                            eos labore diam
+                        </p>
+                        <h4 class="text-truncate">Carkson</h4>
+                        <i>Profession</i>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto rounded-square" src="assets/images/electrical tools.jpg"
+                        style="width: 150px; height: 150px;">
+
+                    <div class="testimonial-text bg-light rounded p-4 mt-n5">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod
+                            eos labore diam
+                        </p>
+                        <h4 class="text-truncate">David</h4>
+                        <i>Profession</i>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto rounded-circle" src="assets/images/fancy-chadeller.webp"
+                        style="width: 150px; height: 150px;">
+
+                    <div class="testimonial-text bg-light rounded p-4 mt-n5">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod
+                            eos labore diam
+                        </p>
+                        <h4 class="text-truncate">Micheal</h4>
+                        <i>Profession</i>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto rounded-squareyyv" src="assets/images/gallery_06-520x400.jpg"
+                        style="width: 150px; height: 150px;">
+
+                    <div class="testimonial-text bg-light rounded p-4 mt-n5">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod
+                            eos labore diam
+                        </p>
+                        <h4 class="text-truncate">Agbor</h4>
+                        <i>Profession</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider end -->
+
+    <!-- Electrical Projects Section -->
+    <section class="explore-work" id="explore">
+        <div class="container expanded">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Discover Our Newest<br><em>Electrical Projects</em>.</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left-image">
+                        <img src="assets/images/electrican bg3.jpg" alt="Interior Design Work">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-content">
+                        <ul>
+                            <li>
+                                <h4>Interior Lighting</h4>
+                                <ul class="info">
+                                    <li>
+                                        <span class="float-start">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-calendar-date-fill"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zm5.402 9.746c.625 0 1.184-.484 1.184-1.18 0-.832-.527-1.23-1.16-1.23-.586 0-1.168.387-1.168 1.21 0 .817.543 1.2 1.144 1.2z" />
+                                                <path
+                                                    d="M16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-6.664-1.21c-1.11 0-1.656-.767-1.703-1.407h.683c.043.37.387.82 1.051.82.844 0 1.301-.848 1.305-2.164h-.027c-.153.414-.637.79-1.383.79-.852 0-1.676-.61-1.676-1.77 0-1.137.871-1.809 1.797-1.809 1.172 0 1.953.734 1.953 2.668 0 1.805-.742 2.871-2 2.871zm-2.89-5.435v5.332H5.77V8.079h-.012c-.29.156-.883.52-1.258.777V8.16a12.6 12.6 0 0 1 1.313-.805h.632z" />
+                                            </svg>
+                                            January 22, 2022
+                                        </span>
+                                        <h6>
+                                            <a href="explore.html">
+                                                Electrical Installations in Restaurant
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
+                                        </h6>
+                                    </li>
+                                    <li>
+                                        <span class="float-start">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z" />
+                                            </svg>
+                                            Florida, USA
+                                        </span>
+                                        <em>Install your Electricals in your homes or any private
+                                            property 45% free
+                                            discount. </em>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Building &amp; Developing</h4>
+                                <ul class="info">
+                                    <li>
+                                        <span class="float-start">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-calendar-date-fill"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zm5.402 9.746c.625 0 1.184-.484 1.184-1.18 0-.832-.527-1.23-1.16-1.23-.586 0-1.168.387-1.168 1.21 0 .817.543 1.2 1.144 1.2z" />
+                                                <path
+                                                    d="M16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-6.664-1.21c-1.11 0-1.656-.767-1.703-1.407h.683c.043.37.387.82 1.051.82.844 0 1.301-.848 1.305-2.164h-.027c-.153.414-.637.79-1.383.79-.852 0-1.676-.61-1.676-1.77 0-1.137.871-1.809 1.797-1.809 1.172 0 1.953.734 1.953 2.668 0 1.805-.742 2.871-2 2.871zm-2.89-5.435v5.332H5.77V8.079h-.012c-.29.156-.883.52-1.258.777V8.16a12.6 12.6 0 0 1 1.313-.805h.632z" />
+                                            </svg>
+                                            January 20, 2022
+                                        </span>
+                                        <h6>
+                                            <a href="explore.html">
+                                                Eko-hotels & Suites
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
+                                        </h6>
+                                    </li>
+                                    <li>
+                                        <span class="float-start">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z" />
+                                            </svg>
+                                            Lokoja, Abuja,Nigeria
+                                        </span>
+                                        <em>Install your Electricals in your homes or any private
+                                            property 45% free
+                                            discount.</em>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Hotels and Small Enterprises</h4>
+                                <ul class="info">
+                                    <li>
+                                        <span class="float-start">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-calendar-date-fill"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zm5.402 9.746c.625 0 1.184-.484 1.184-1.18 0-.832-.527-1.23-1.16-1.23-.586 0-1.168.387-1.168 1.21 0 .817.543 1.2 1.144 1.2z" />
+                                                <path
+                                                    d="M16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-6.664-1.21c-1.11 0-1.656-.767-1.703-1.407h.683c.043.37.387.82 1.051.82.844 0 1.301-.848 1.305-2.164h-.027c-.153.414-.637.79-1.383.79-.852 0-1.676-.61-1.676-1.77 0-1.137.871-1.809 1.797-1.809 1.172 0 1.953.734 1.953 2.668 0 1.805-.742 2.871-2 2.871zm-2.89-5.435v5.332H5.77V8.079h-.012c-.29.156-.883.52-1.258.777V8.16a12.6 12.6 0 0 1 1.313-.805h.632z" />
+                                            </svg>
+                                            June 18, 2022
+                                        </span>
+                                        <h6>
+                                            <a href="explore.html">
+                                                Mini party designs
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
+                                        </h6>
+                                    </li>
+                                    <li>
+                                        <span class="float-start">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z" />
+                                            </svg>
+                                            North City Beach Park
+                                        </span>
+                                        <em>Feel free to download &amp; Install your Electricals in
+                                            your homes or
+                                            any
+                                            private property 45% free discount.</em>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Apartment Installations</h4>
+                                <ul class="info">
+                                    <li>
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-calendar-date-fill"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zm5.402 9.746c.625 0 1.184-.484 1.184-1.18 0-.832-.527-1.23-1.16-1.23-.586 0-1.168.387-1.168 1.21 0 .817.543 1.2 1.144 1.2z" />
+                                                <path
+                                                    d="M16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-6.664-1.21c-1.11 0-1.656-.767-1.703-1.407h.683c.043.37.387.82 1.051.82.844 0 1.301-.848 1.305-2.164h-.027c-.153.414-.637.79-1.383.79-.852 0-1.676-.61-1.676-1.77 0-1.137.871-1.809 1.797-1.809 1.172 0 1.953.734 1.953 2.668 0 1.805-.742 2.871-2 2.871zm-2.89-5.435v5.332H5.77V8.079h-.012c-.29.156-.883.52-1.258.777V8.16a12.6 12.6 0 0 1 1.313-.805h.632z" />
+                                            </svg>
+                                            January 16, 2022
+                                        </span>
+                                        <h6>
+                                            <a href="explore.html">
+                                                Interior for Marina Beach Resort
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
+                                        </h6>
+                                    </li>
+                                    <li>
+                                        <span class="float-start">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z" />
+                                            </svg>
+                                            Sunny Isles Beach, FL 33160
+                                        </span>
+                                        <em>Install your Electricals in your homes or any private
+                                            property 45% free
+                                            discount. Please contact us for more info.</em>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Electrical Projects Section -->
+
+    <!-- Electrical Project -->
+    <section class="whats-trending">
+        <div class="container expanded">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="section-heading">
+                        <h2>"Discover the latest electrical innovations<br><em> in Our Work</em>.
+                        </h2>
+                    </div>
+                    <div class="left-content">
+                        <p class="OM">Our management team is committed to the highest standard of leadership ethos permitting it to hire, train and retain a highly skilled and motivated workforce dedicated to achieving the overall superordinate goals of the company while also providing direction.</p>
+                            <div class="primary-button">
+                                <a href="#">Discover More</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="right-image">
+                        <div class="thumb">
+                            <div class="hover-effect">
+                                <div class="inner-content">
+                                    <h4>
+                                        <p>Street light</p>
+                                    </h4>
+                                    <span>Company light Installation</span>
+                                </div>
+                            </div>
+                            <img src="assets/images/fancyStreetLight.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Us Tab -->
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 left-form">
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section-heading">
+                                    <h2>Don't be Hesitated<br><em>Talk to us</em> now!</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <input name="name" type="text" id="name" placeholder="First Name*" required="">
+                            </div>
+                            <div class="col-lg-6">
+                                <input name="last-name" type="text" id="last-name" placeholder="Last Name*" required="">
+                            </div>
+                            <div class="col-lg-6">
+                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*"
+                                    placeholder="Your Email" required="">
+                            </div>
+                            <div class="col-lg-6">
+                                <input name="subject" type="text" id="subject" placeholder="Subject*" required="">
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea name="message" type="text" class="form-control" id="message"
+                                    placeholder="Message" required=""></textarea>
+                            </div>
+                            <div class="col-lg-12">
+                                <button type="submit" id="form-submit" class="main-button ">Send
+                                    Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 right-map">
+                    <div id="map">
+
+                        <!-- You can easily copy and paste your own map point from Google Maps -> Share -> Embed a map -->
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d992.3964370396508!2d9.915251759121205!3d53.644558146275365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47b1877f907bcfcb%3A0xf7fd66100b2f75c8!2sDAAB%20Service%2C%20Br%C3%BCder-Hornemann-Stra%C3%9Fe%206%2C%2022457%20Hamburg%2C%20Germany!3m2!1d53.644531!2d9.916381999999999!5e0!3m2!1sen!2sng!4v1682037389642!5m2!1sen!2sng"
+                            width="100%" height="542px" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Beginning -->
+    <footer class="no-margin-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about-widget">
+                        <div class="logo">
+                            <span>DAAB</span>
+                            Electrical Services
+                        </div>
+                        <br>
+                        <p class="center-footer">Our Corperate Culture</p>
+                        <p>Demonstrating high-level SOCIAL RESPONSIBILITY AND EMPATHY within our
+                            Immediate Community
+                            and
+                            the larger society through Excellent performance Delivery and
+                            Cooperation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-2">
+                    <div class="location-widget">
+                        <h4>Our Location</h4>
+                        <p>Ibeju lekki Beach, <br><br>Ajah 33160, <br>Lagos States</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="customer-care">
+                        <h4>Customer Care</h4>
+                        <ul class="info">
+                            <li><a href="#">080-0204-0340</a></li>
+                            <li><a href="#">090-0801-0760</a></li>
+                            <li><a href="#">info@company.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="follow-us">
+                        <h4>Follow Us</h4>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                    </svg>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                    Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                    </svg>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-6">
+                    <h4>Subscribe To Our Newsletter</h4>
+                    <form id="subscribe" action="" method="get">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*"
+                                    placeholder="Type your email..." required="">
+                                <button type="submit" id="form-submit" class="text-button ">
+                                    Submit
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                        class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-12">
+                    <div class="sub-footer">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>Copyright © 2023 DAAB Electrical Services NIG, ENT. All Rights
+                                    Reserved.
+
+                                    <br>Design: <a rel="nofollow" href="#" target="_blank">Crea-tech</a>
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <a href="#top" class="scroll-to-top">
+                                    Go to Top
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ending -->
+
+    <!-- Scripts -->
+    <script src="assets/js/cark.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script type='text/javascript'></script>
+
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        setTimeout(function () {
+            $('.loader').fadeToggle();
+        }, 2500);
+
+        $("a[href='#top']").click(function () {
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+    </script>
+
+</body>
+
+</html>
